@@ -18,7 +18,16 @@ This repository provides a roadmap and answers to help beginners practice Leetco
 
 ## Array
 
+
+
 ## String
+
+| Leetcode Problem | Difficulty | Answer |
+| ---- | :----: | :----: |
+| [344. Reverse String](https://leetcode.com/problems/reverse-string/) | Easy   | [Answer](./String/344.%20Reverse%20String.js) |
+| [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/) | Easy   | [Answer](./String/541.%20Reverse%20String%20II.js) |
+| [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/) | Medium   | [Answer](./String/151.%20Reverse%20Words%20in%20a%20String.js) |
+
 
 ## LinkedList
 
