@@ -18,7 +18,12 @@ This repository provides a roadmap and answers to help beginners practice Leetco
 
 ## Array
 
-
+| Leetcode Problem | Difficulty | Answer |
+| ---- | :----: | :----: |
+| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy   | [Answer](Array/26.%20Remove%20Duplicates%20from%20Sorted%20Array.js) |
+| [27. Remove Element](https://leetcode.com/problems/remove-element/description/) | Easy | [Answer](/Array/26.%20Remove%20Duplicates%20from%20Sorted%20Array.js) |
+| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | Easy | [Answer](/Array/88.%20Merge%20Sorted%20Array.py) |
+| [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | Easy | [Answer](/Array/118.%20Pascal's%20Triangle.js) |
 
 ## String
 
