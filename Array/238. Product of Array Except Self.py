@@ -4,20 +4,16 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        n = len(nums)
-    
-        # Initialize the result array with 1s
-        result = [1] * n
-        
-        # Step 1: Calculate left products and store in result
-        left_product = 1
-        for i in range(n):
-            result[i] = left_product
-            left_product *= nums[i]
+        answer = [1] * len(nums)
+        left_muliple_result = 1
+        right_multiple_result = 1
 
-        # Step 2: Calculate right products and multiply with corresponding left product in result
-        right_product = 1
-        for i in range(n-1, -1, -1):
-            result[i] *= right_product
-            right_product *= nums[i]
-        return result
+        for index in range(len(nums)):
+            answer[index] = left_muliple_result
+            left_muliple_result = left_muliple_result * nums[index]
+
+        for index in range(len(nums) - 1, -1, -1):
+            answer[index] = right_multiple_result * answer[index]
+            right_multiple_result = right_multiple_result * nums[index]
+        
+        return answer
